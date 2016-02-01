@@ -16,6 +16,8 @@ namespace OtherOrlandoH3.Controllers
             return View();
         }
 
+        #region events
+
         public ActionResult RedDress()
         {
             return View();
@@ -31,6 +33,8 @@ namespace OtherOrlandoH3.Controllers
             return View();
         }
 
+        #endregion
+
         public ActionResult Mismanagement()
         {
             return View();
@@ -45,6 +49,25 @@ namespace OtherOrlandoH3.Controllers
         {
             return View();
         }
+
+        #region Links
+
+        public ActionResult HashStats()
+        {
+            return View();
+        }
+
+        public ActionResult BeerMeister()
+        {
+            return View();
+        }
+
+        public ActionResult Haberdashery()
+        {
+            return View();
+        }
+
+        #endregion
 
     }
 }

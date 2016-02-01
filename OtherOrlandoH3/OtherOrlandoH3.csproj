@@ -249,6 +249,9 @@
     <Content Include="Views\Home\RedDress.cshtml" />
     <Content Include="Views\Home\Calendar.cshtml" />
     <Content Include="Views\Home\Hareline.cshtml" />
+    <Content Include="Views\Home\HashStats.cshtml" />
+    <Content Include="Views\Home\BeerMeister.cshtml" />
+    <Content Include="Views\Home\Haberdashery.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

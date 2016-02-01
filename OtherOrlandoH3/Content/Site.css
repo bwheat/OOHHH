@@ -9,6 +9,30 @@ header, footer, nav, section {
     display: block;
 }
 
+#eventsNav {
+    color: #9d9d9d;    
+    line-height: 30px;
+    display: inline-block;
+    padding: 10px 15px;
+    float: left;
+}
+
+#linksNav
+{
+    color: #9d9d9d;    
+    line-height: 30px;
+    display: inline-block;
+    padding: 10px 15px;
+    float: left;
+}
+
+#eventsDropdown {
+     left:auto;
+}
+
+#linksDropdown {
+    left: auto;
+}
 
 /* Styles for basic forms
 -----------------------------------------------------------*/
@@ -58,4 +82,13 @@ textarea {
 
 .validation-summary-valid {
     display: none;
+}
+
+/*
+    Hareline 
+    */
+ .hareline {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
