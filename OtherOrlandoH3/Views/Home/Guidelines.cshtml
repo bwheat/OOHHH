@@ -2,75 +2,143 @@
     ViewBag.Title = "Guidelines";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<div class="col-xs-3 scrollspy" >
+    <nav class="bs-docs-sidebar">
+        <ul id="sidebar" class="nav nav-stacked fixed hidden-sm hidden-xs" data-spy="affix">
+            <li>
+                <a href="#HareRules">Hare Rules</a>
+                <ul class="nav nav-stacked">
+                    <li><a href="#Introduction">Introduction</a></li>
+                    <li><a href="#Start">Start</a></li>
+                    <li><a href="#Directions">Directions</a></li>
+                    <li><a href="#Publicity">Publicity</a></li>
+                    <li><a href="#Kitcar">Kit-Kar</a></li>
+                </ul>
+            </li>
 
-<h2>General Guidelines - Haring</h2>
-
-<h4>Hashing has no rules, but haring does!</h4>
-<p>
-    Remember O2H3 is, "All live all the time."
-    It's our claim to fame. This means all trails for this hash are live trails.
-    The whole point of the hash is for everyone to have fun and make it to the end. Virgin hares are expected to set trail with an experienced hasher the first time.
-    If you get caught, you get caught. It happens to all of us. It is better to get caught than lay a bad trail!
-</p>
-<h4>Hash Start</h4> 
-<p>
-    The start should allow sufficient, safe parking without tickets, towing, etc. Be sure the anticipated crowd can be accommodated at the parking area and the start. 
-    The start time and location is entirely up to the hare. But once the time and location are published don't change it unless it is absolutely necessary.
-</p>
-<h4>Directions</h4>
-<p>
-    Provide adequate directions for people to find their way to the start. Provide a street address. 
-    Provide directions from at least 2 major roads. Don't assume everybody knows where your favorite watering hole is located.
-</p>
-<h4>Publicity</h4>
-<p>
-    Please get word to "the hare raiser" at least a week in advance so directions can be posted on this website, the Yahoo Group, and the Other Orlando H3 Facebook group. 
-    Be sure to include any special directions or instructions.
-</p>
-<h4>Kit-Kar/Bag Wagon/Hare-aid</h4>
-<p>
-    It is the Beer Angel's responsibility to bring the beer to the start, not to the end.
-    Hares are responsible to provide a kit-kar large enough to transport the bags, beer and snacks to the end and keep it "safe" once it gets there. 
-    ARRANGE THIS AHEAD OF TIME. Half an hour is not enough time! Meet at 3 hare away at 3:30 is not going to work unless you have a dedicated kit-kar driver.
-</p>
-<h4>Hash End</h4>
-<p>
-    The end needs to be in an area where beer is legal, and where the hash can congregate without interference.
-    Pick an area where we can be ourselves and not get arrested; respect "No Trespassing" signs.
-    During the summer if you can find a shady spot or covered area you'll be hailed as a hero. A pool is good in the summertime. 
-    The hares need to provide transportation back to the start to pick up a couple of large vehicles to shuttle people and gear back.
-</p>
-<h4>Lost Hashers</h4>
-<p>
-    The hares are responsible for finding any hashers still out on trail by the time the circle is over. 
-    This is an incentive to lay a well marked trail!! The search party starts with the hares.
-</p>
-<h4>Beer/Water stops</h4>
-<p>
-    If you plan on having a beer/water/shot stop along the trail it is up to the hare to provide drinks, cups and anything else that is needed.
-    Any trail over 3 miles must have a water stop if it is hot outside (so 9 months a year).
-    The hash does not reimburse you for beer and water stops. Neither does the hash reimburse you for your flour or chalk. Always provide water at beer stops. 
-    If you have a pub stop on trail tell the pack to bring money on trail for a pub stop.
-</p>
-<h4>Checks</h4>
-<p>
-    Checks are designed to bring the pack together. A trail should have enough checks to make it a challenge, but not so many as to make it a chore.
-    The true trail may come out of a check in any direction, 369 degrees, but generally within 100 yards of the check as the crow flies. 
-    A trail should be fairly easy to follow when you are on trail so mark your corners and turns. Flour placement can be clever, but shouldn't be continually hidden.
-</p>
-<h4>The Trail</h4>
-<p>
-    Trails should be approximately 3-5 miles in length depending on terrain and weather conditions.
-    Scout your trails beforehand and run the entire trail, and time it to get a feel for the overall length.
-    If the hash is at night, run it in the dark to avoid loosing your way while haring live.
-    The point is for everybody to finish and have fun. Be creative, you're not catering to any special interest group, especially competitive runners!
-    A regroup at a beer check, overlook or whatever is a great way to allow the slower hashers to catch up. 
-    Checks, Count Backs, etc., should slow the FRB's and allow the not so fast runners to catch up. If a longer trail is desired then a turkey/eagle split is a nice touch.
-    Trail markings should be flour, chalk, toilet paper (preferably unused) or any suitable biodegradable material or means.
-    Stash flour and other marking supplies on trail to avoid carrying a heavy bag. Don't skimp on flour.
-    It is far better to lay a trail that is easily followed, but a challenge to traverse, than the other way around. 
-    Keep in mind some things are harder to see at night, like blue flour or chalk. We strongly encourage you to color your flour. Flour is easily colored using chalkline chalk or tempra paint.
-    Hash marks should be placed approximately 30 yards (25 paces) or so apart, closer at night (20-25 yards). 
-    If the weather is crap, use vertical surfaces (trees instead of ground). BRIEF THE HASH ON ANY SPECIAL MARKS OR MATERIAL USED ON TRAIL.
-    Trails should not go through private property without the owner's permission.
-</p>
+            <li>
+                <a href="#Trail">The Trail</a>
+                <ul class="nav nav-stacked">
+                    <li><a href="#Basics">Basics</a></li>
+                    <li><a href="#Beerstops">Beer/Water stops</a></li>
+                    <li><a href="#Checks">Checks</a></li>
+                    <li><a href="#HashEnd">Hash End</a></li>
+                    <li><a href="#LostHashers">LostHashers</a></li>
+                </ul>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+<div id="guideline-container" class="col-xs-6">
+    <h2>General Guidelines - Haring</h2>
+    <section id="HareRules" class="group">
+        <h3>Hashing has no rules, but haring does!</h3>
+        <div id="Introduction" class="subgroup">
+            <h4>Introduction</h4>
+            <p>
+                Remember O2H3 is, "All live all the time."
+                It's our claim to fame. This means all trails for this hash are live trails.
+                The whole point of the hash is for everyone to have fun and make it to the end. Virgin hares are expected to set trail with an experienced hasher the first time.
+                If you get caught, you get caught. It happens to all of us. It is better to get caught than lay a bad trail!
+            </p>
+        </div>
+        <div id="Start" class="subgroup">
+            <h4>Hash Start</h4>
+            <p>
+                The start should allow sufficient, safe parking without tickets, towing, etc. Be sure the anticipated crowd can be accommodated at the parking area and the start.
+                The start time and location is entirely up to the hare. But once the time and location are published don't change it unless it is absolutely necessary.
+            </p>
+        </div>
+        <div id="Directions" class="subgroup">
+            <h4>Directions</h4>
+            <p>
+                Provide adequate directions for people to find their way to the start. Provide a street address.
+                Provide directions from at least 2 major roads. Don't assume everybody knows where your favorite watering hole is located.
+            </p>
+        </div>
+        <div id="Publicity" class="subgroup">
+            <h4>Publicity</h4>
+            <p>
+                Please get word to "the hare raiser" at least a week in advance so directions can be posted on this website, the Yahoo Group, and the Other Orlando H3 Facebook group.
+                Be sure to include any special directions or instructions.
+            </p>
+        </div>
+        <div id="Kitcar" class="subgroup">
+            <h4>Kit-Kar/Bag Wagon/Hare-aid</h4>
+            <p>
+                It is the Beer Angel's responsibility to bring the beer to the start, not to the end.
+                Hares are responsible to provide a kit-kar large enough to transport the bags, beer and snacks to the end and keep it "safe" once it gets there.
+                ARRANGE THIS AHEAD OF TIME. Half an hour is not enough time! Meet at 3 hare away at 3:30 is not going to work unless you have a dedicated kit-kar driver.
+            </p>
+        </div>
+    </section>
+    <section id="Trail" class="group">
+        <h3>The Trail</h3>
+        <div id="Basics" class="subgroup">
+            <h4>Basics</h4>
+            <p>
+                Trails should be approximately 3-5 miles in length depending on terrain and weather conditions.
+                Scout your trails beforehand and run the entire trail, and time it to get a feel for the overall length.
+                If the hash is at night, run it in the dark to avoid loosing your way while haring live.
+                The point is for everybody to finish and have fun. Be creative, you're not catering to any special interest group, especially competitive runners!
+                A regroup at a beer check, overlook or whatever is a great way to allow the slower hashers to catch up.
+                Checks, Count Backs, etc., should slow the FRB's and allow the not so fast runners to catch up. If a longer trail is desired then a turkey/eagle split is a nice touch.
+                Trail markings should be flour, chalk, toilet paper (preferably unused) or any suitable biodegradable material or means.
+                Stash flour and other marking supplies on trail to avoid carrying a heavy bag. Don't skimp on flour.
+                It is far better to lay a trail that is easily followed, but a challenge to traverse, than the other way around.
+                Keep in mind some things are harder to see at night, like blue flour or chalk. We strongly encourage you to color your flour. Flour is easily colored using chalkline chalk or tempra paint.
+                Hash marks should be placed approximately 30 yards (25 paces) or so apart, closer at night (20-25 yards).
+                If the weather is crap, use vertical surfaces (trees instead of ground). BRIEF THE HASH ON ANY SPECIAL MARKS OR MATERIAL USED ON TRAIL.
+                Trails should not go through private property without the owner's permission.
+            </p>
+        </div>
+        <div id="Beerstops" class="subgroup">
+            <h4>Beer/Water stops</h4>
+            <p>
+                If you plan on having a beer/water/shot stop along the trail it is up to the hare to provide drinks, cups and anything else that is needed.
+                Any trail over 3 miles must have a water stop if it is hot outside (so 9 months a year).
+                The hash does not reimburse you for beer and water stops. Neither does the hash reimburse you for your flour or chalk. Always provide water at beer stops.
+                If you have a pub stop on trail tell the pack to bring money on trail for a pub stop.
+            </p>
+        </div>
+        <div id="Checks" class="subgroup">
+            <h4>Checks</h4>
+            <p>
+                Checks are designed to bring the pack together. A trail should have enough checks to make it a challenge, but not so many as to make it a chore.
+                The true trail may come out of a check in any direction, 369 degrees, but generally within 100 yards of the check as the crow flies.
+                A trail should be fairly easy to follow when you are on trail so mark your corners and turns. Flour placement can be clever, but shouldn't be continually hidden.
+            </p>
+        </div>
+        <div id="HashEnd" class="subgroup">
+            <h4>Hash End</h4>
+            <p>
+                The end needs to be in an area where beer is legal, and where the hash can congregate without interference.
+                Pick an area where we can be ourselves and not get arrested; respect "No Trespassing" signs.
+                During the summer if you can find a shady spot or covered area you'll be hailed as a hero. A pool is good in the summertime.
+                The hares need to provide transportation back to the start to pick up a couple of large vehicles to shuttle people and gear back.
+            </p>
+        </div>
+        <div id="LostHashers" class="subgroup">
+            <h4>Lost Hashers</h4>
+            <p>
+                The hares are responsible for finding any hashers still out on trail by the time the circle is over.
+                This is an incentive to lay a well marked trail!! The search party starts with the hares.
+            </p>
+        </div>
+    </section>
+</div>
+<div class="col-xs-3"></div>
+@Scripts.Render("~/bundles/jquery")
+<script src="~/Scripts/bootstrap.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    //$('body').scrollspy({
+    //    target: '.bs-docs-sidebar',
+    //    offset: 40
+    //});
+    $('#sidebar').affix({
+        offset: {
+            top: $('#sidebar').offset().top
+        }
+    });
+</script>
