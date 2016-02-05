@@ -24,7 +24,7 @@ header, footer, nav, section {
     float: left;
 }
 
-#linksNav
+/*#linksNav
 {
     color: #9d9d9d;    
     line-height: 30px;
@@ -39,7 +39,7 @@ header, footer, nav, section {
 
 #linksDropdown {
     left: auto;
-}
+}*/
 
 
 /* Styles for basic forms
